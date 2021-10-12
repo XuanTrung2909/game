@@ -22,7 +22,7 @@ getGame("gameMobile");
 
 function renderGame(arrGame, id) {
 	var content = ``;
-	console.log(arrGame.length);
+	
 	for (var i = 0; i < arrGame.length; i++) {
 		content += `
             <div class="content__item col-md-2 col-sm-3 col-4">

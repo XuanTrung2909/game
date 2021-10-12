@@ -9,6 +9,8 @@ function getNews() {
 		for (var i = 0; i < result.data.length; i++) {
 			newsList.push(result.data[i]);
 		}
+        
+        renderNews(newsList);
 	});
 
 	promise.catch(function (error) {
@@ -16,34 +18,41 @@ function getNews() {
 	});
 }
 
+getNews()
+
 function renderNews(arrNews) {
 	var content = ``;
-	console.log(arrNews.length);
-	for (var i = 0; i < arrGame.length; i++) {
-		content += `
-            <div class="col-md-4 col-sm-4">
-                <img
-                    src="./assets/images/game1.jpg"
-                    alt="alt"
-                />
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="item__text">
-                    <a href="#">
-                        <h4>
-                            Thông báo: Đông Tà Tây Độc
-                             OPENSV1_Dương Quá
-                        </h4>
-                    </a>
-                    <p>Đông Tà Tây Độc 3D</p>
-                    <p>
-                        <span>Sự Kiện</span>: 30-8-2021 22:08:59
-                    </p>
+	
+	for (var i = 0; i < arrNews.length; i++) {
+		
+            content += `
+            <div class="content__item">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <img
+                            src="${arrNews[i].img}"
+                            alt="alt"
+                        />
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="item__text">
+                            <a href="#">
+                                <h4>
+                                    ${arrNews[i].tieuDe}
+                                </h4>
+                            </a>
+                            <p>${arrNews[i].loaiGame}</p>
+                            <p>
+                                <span>Sự Kiện</span>: ${arrNews[i].thoiGian}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         `;
+        
 	}
 
-	// console.log(arrGame);
+	
 	document.getElementById("news").innerHTML = content;
 }

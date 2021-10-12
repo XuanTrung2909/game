@@ -5,8 +5,8 @@
         "img":"./assets/images/game1.jpg",
         "loaiGame": "Đông Tà Tây Độc 3D",
         "thoiGian": "30-08-2021 22:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": true
+        "noiDung": "Các sự Kiện của game"
+        
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "img":"./assets/images/game2.png",
         "loaiGame": "Tiểu Tam Quốc H5",
         "thoiGian": "27-08-2021 00:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": true
+        "noiDung": "Các sự Kiện của game"
+        
     },
     {
         "id": 3,
@@ -23,8 +23,8 @@
         "img":"./assets/images/game3.jpg",
         "loaiGame": "Kiếm ma H5",
         "thoiGian": "27-08-2021 22:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": true
+        "noiDung": "Các sự Kiện của game"
+        
     },
     {
         "id": 4,
@@ -32,8 +32,8 @@
         "img":"./assets/images/game1.jpg",
         "loaiGame": "Đông Tà Tây Độc 3D",
         "thoiGian": "30-08-2021 22:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": true
+        "noiDung": "Các sự Kiện của game"
+        
     },
     {
         "id": 5,
@@ -41,8 +41,8 @@
         "img":"./assets/images/game2.png",
         "loaiGame": "Tiểu Tam Quốc H5",
         "thoiGian": "27-08-2021 00:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": false
+        "noiDung": "Các sự Kiện của game"
+        
     },
     {
         "id": 6,
@@ -50,7 +50,7 @@
         "img":"./assets/images/game3.jpg",
         "loaiGame": "Kiếm ma H5",
         "thoiGian": "27-08-2021 22:08:59",
-        "noiDung": "Các sự Kiện của game",
-        "trangThai": false
+        "noiDung": "Các sự Kiện của game"
+        
     }
 ]

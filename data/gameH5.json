@@ -34,5 +34,17 @@
         "name": "Đông Tà Tây Độc",
         "img":"./assets/images/game2.png",
         "content": "gioi thieu game"
+    },
+    {
+        "id": 7,
+        "name": "Đông Tà Tây Độc",
+        "img":"./assets/images/game3.jpg",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 8,
+        "name": "Tôn Ngộ Không",
+        "img":"./assets/images/game4.png",
+        "content": "gioi thieu game"
     }
 ]

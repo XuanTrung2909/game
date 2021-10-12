@@ -75,7 +75,7 @@
                     </div>
                     <div class="col-md-9 col-sm-7 col-12 content">
                         <h2>Quản lý Tin tức</h2>
-                        <button class="btn btn-success create"><i class="fas fa-plus"></i></button>
+                        <button class="btn btn-success create" data-toggle="modal" data-target="#createNews"><i class="fas fa-plus"></i></button>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -155,6 +155,44 @@
 
             <!-- END FOOTER -->
         </div>
+
+
+        <div class="modal fade" id="createNews" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Thêm mới tin tức</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                        <label>Tiêu Để</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Loại game</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Thời Gian</label>
+                        <input type="datetime-local" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Nội Dung</label>
+                        <input type="text" class="form-control" />
+                    </div>
+                    <button class="btn btn-success">Tạo mới</button>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
 
         <!-- js -->
 
