@@ -1,0 +1,27 @@
+.wrapper {
+    position: relative;
+    padding-bottom: 10rem;
+    .footer {
+        padding: 0.5rem 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 10;
+        border-top: 0.1rem #80808070 solid;
+        a {
+            text-decoration: none;
+            color: gray;
+            font-size: 1.6rem;
+
+            &:hover,
+            &.active {
+                color: $color-primary;
+            }
+            @media screen and (max-width: 767px) {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.dashboard {
+	padding-top: 8rem;
+	position: relative;
+	.menu {
+		ul {
+			a {
+				text-decoration: none;
+				color: black;
+				// font-size: 1.6rem;
+				transition: all 0.5s;
+				&.active,
+				&:hover {
+					font-weight: bold;
+					color: $color-primary;
+				}
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+
+			li {
+				font-size: 1.6rem;
+				padding: 1rem;
+				border: 0.1rem #80808047 solid;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+	.menu__hide {
+		@media screen and (max-width: 575px) {
+			position: absolute;
+			left: -100%;
+			top: 0;
+		}
+	}
+	.menu_show {
+		@media screen and (max-width: 575px) {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+}

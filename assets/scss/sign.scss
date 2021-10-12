@@ -1,0 +1,53 @@
+@import "./base/base";
+@import "./helper/variables";
+.wrapper {
+    display: flex;
+    height: 100vh;
+    .sign {
+        width: 40rem;
+        min-height: 40rem;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 4rem;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 5rem;
+            .tab {
+                font-size: 1.6rem;
+                font-weight: bold;
+                padding: 1rem 4rem;
+                border-radius: 0.5rem;
+                cursor: pointer;
+                @media screen and (max-width: 575px) {
+                    font-size: 1.4rem;
+                    padding: 1rem 2rem;
+                }
+            }
+            .tab.active {
+                background-color: $color-primary;
+                color: white;
+            }
+        }
+        .content {
+            .tab-panel {
+                display: none;
+                label,
+                input {
+                    font-size: 1.3rem;
+                }
+                button {
+                    display: block;
+                    margin: 3rem auto;
+                    font-size: 1.6rem;
+                    padding: 1rem 2rem;
+                }
+            }
+            .tab-panel.active-panel {
+                display: block;
+            }
+        }
+    }
+}

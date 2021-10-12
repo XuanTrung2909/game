@@ -1,0 +1,232 @@
+.giftcode {
+	padding-top: 8rem;
+	.menu {
+		ul {
+			a {
+				text-decoration: none;
+				color: black;
+				// font-size: 1.6rem;
+				transition: all 0.5s;
+				&.active,
+				&:hover {
+					font-weight: bold;
+					color: $color-primary;
+				}
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+
+			li {
+				font-size: 1.6rem;
+				padding: 1rem;
+				border: 0.1rem #80808047 solid;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+		}
+		@media screen and (max-width: 575px) {
+			display: none;
+		}
+	}
+	.content {
+		padding: 2rem;
+		border: 0.1rem #80808047 solid;
+		position: relative;
+		h2 {
+			position: absolute;
+			left: 2rem;
+			top: -3rem;
+			@media screen and (max-width: 767px) {
+				font-size: 1.6rem;
+			}
+		}
+		form {
+			label,
+			input,
+			select {
+				font-size: 1.6rem;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+			label {
+				color: $color-primary;
+				font-weight: 600;
+				margin: 1rem 0;
+			}
+			select {
+				height: 5rem;
+			}
+			button {
+				font-size: 1.6rem;
+				display: block;
+				margin: 4rem auto;
+				padding: 1rem 2rem;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+		}
+		p {
+			font-size: 1.3rem;
+			color: gray;
+			@media screen and (max-width: 767px) {
+				font-size: 1.1rem;
+			}
+		}
+
+		ul {
+			display: flex;
+			justify-content: space-around;
+			border-bottom: 0.1rem #80808047 solid;
+			padding-bottom: 2rem;
+			.tab {
+				font-size: 1.6rem;
+				padding: 1rem 3rem;
+				border-radius: 1rem;
+				cursor: pointer;
+				transition: all 0.5s;
+				&:hover,
+				&.active {
+					background-color: $color-primary;
+					color: white;
+					font-weight: bold;
+				}
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+					padding: 1rem;
+				}
+			}
+		}
+
+		.tab-panel {
+			display: none;
+			h3 {
+				margin: 3rem 0;
+				@media screen and (max-width: 767px) {
+					font-size: 1.4rem;
+				}
+			}
+			p,
+			input {
+				font-size: 1.6rem;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+		}
+		.tab-panel.active-panel {
+			display: block;
+		}
+		.game {
+			label,
+			select {
+				font-size: 1.6rem;
+				@media screen and (max-width: 767px) {
+					font-size: 1.3rem;
+				}
+			}
+		}
+		h3 {
+			margin: 3rem 0;
+			@media screen and (max-width: 767px) {
+				font-size: 1.5rem;
+			}
+		}
+		.item {
+			text-align: center;
+			padding: 2rem;
+			background-color: #1f3148;
+			cursor: pointer;
+			img {
+				width: 8rem;
+				height: 8rem;
+			}
+			h3 {
+				margin: 3rem 0;
+				color: $color-primary;
+			}
+			span {
+				color: $color-secondary;
+				font-size: 1.3rem;
+			}
+			p {
+				margin-top: 2rem;
+			}
+			@media screen and (max-width: 767px) {
+				h3 {
+					font-size: 1.4rem;
+					margin: 2rem 0;
+				}
+				padding: 2rem 0;
+			}
+		}
+		table {
+			tr {
+				font-size: 1.3rem;
+				@media screen and (max-width: 767px) {
+					font-size: 1rem;
+				}
+			}
+			img {
+				width: 10rem;
+				@media screen and (max-width: 767px) {
+					width: 5rem;
+				}
+			}
+			p {
+				font-size: 1rem;
+				display: -webkit-box;
+				-webkit-line-clamp: 5;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+			button {
+				margin: 0.5rem;
+			}
+		}
+		.create {
+			padding: 0.5rem 3rem;
+			margin: 0 0 2rem 0;
+			font-size: 1.6rem;
+		}
+	}
+}
+.modal {
+	// .modal-content {
+	// 	.modal-header {
+	// 		.modal-title {
+	// 			font-size: 2rem;
+	// 		}
+	// 	}
+	// }
+	h5 {
+		font-size: 2rem;
+		@media screen and (max-width: 767px) {
+			font-size: 1.5rem;
+		}
+	}
+	label,
+	select,
+	input,
+	button,
+	p {
+		font-size: 1.6rem;
+		@media screen and (max-width: 767px) {
+			font-size: 1.3rem;
+		}
+	}
+	.modal-body {
+		padding: 2rem;
+		input {
+			margin-bottom: 3rem;
+		}
+		button {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}

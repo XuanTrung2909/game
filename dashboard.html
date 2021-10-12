@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- BOOTSTRAP  -->
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <!-- SLICK -->
+
+        <!-- <link rel="stylesheet" href="./assets/css/slick.css" />
+        <link rel="stylesheet" href="./assets/css/slick-theme.css" /> -->
+
+        <!-- FONT AWESOME -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+
+        <title>dashboad News</title>
+    </head>
+    <body>
+        <div class="container wrapper">
+            <!-- HEADER  -->
+
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <!-- <div class="header__menu">
+                    <button>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div> -->
+            </div>
+
+            <!-- END HEADER  -->
+
+            <!-- GIFTCODE  -->
+            <div class="giftcode">
+                <div class="row">
+                    <div class="col-md-3 col-sm-5 col-12 menu">
+                        <ul>
+                            <li class="font-weight-bold">
+                                <i class="fas fa-bars"></i> Thông tin
+                            </li>
+                            <li>
+                                <i class="fas fa-user"></i> Tên tài khoản: admin
+                            </li>
+                            <li>
+                                Đăng Xuất
+                           </li>
+                        </ul>
+                        <ul>
+                            <li class="font-weight-bold">
+                                <i class="fas fa-bars"></i> Menu
+                            </li>
+                            <a href="./giftcode.html" class="active">
+                                <li><i class="fas fa-newspaper"></i> Tin Tức</li>
+                            </a>
+                           
+                        </ul>
+                    </div>
+                    <div class="col-md-9 col-sm-7 col-12 content">
+                        <h2>Quản lý Tin tức</h2>
+                        <button class="btn btn-success create"><i class="fas fa-plus"></i></button>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Tiêu đề</th>
+                                    <th>Hình Ảnh</th>
+                                    <th>Nội dung</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <th>Đông Tà Tây Độc</th>
+                                    <th>
+                                        <img src="./assets/images/game1.jpg" alt="alt">
+                                    </th>
+                                    <th>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero debitis veritatis laboriosam ducimus placeat laborum assumenda, quidem voluptate nihil magni quam modi minima omnis minus magnam, dolorum enim iure ad?</p>
+                                    </th>
+                                    <th>
+                                        <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                        <button class="btn btn-primary"><i class="fas fa-pen"></i></button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <th>Đông Tà Tây Độc</th>
+                                    <th>
+                                        <img src="./assets/images/game1.jpg" alt="alt">
+                                    </th>
+                                    <th>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero debitis veritatis laboriosam ducimus placeat laborum assumenda, quidem voluptate nihil magni quam modi minima omnis minus magnam, dolorum enim iure ad?</p>
+                                    </th>
+                                    <th>
+                                        <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                        <button class="btn btn-primary"><i class="fas fa-pen"></i></button>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- END GIFTCODE  -->
+
+            <!-- FOOTER  -->
+
+            <div class="footer">
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <a href="./index.html">
+                            <i class="fas fa-home"></i>
+                            <p>Trang chủ</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./giftcode.html" class="active">
+                            <i class="fas fa-gift"></i>
+                            <p>Giftcode</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./recharge.html">
+                            <i class="fas fa-dollar-sign"></i>
+                            <p>Nạp Thẻ</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./webshop.html">
+                            <i class="fas fa-store-alt"></i>
+                            <p>WebShop</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END FOOTER -->
+        </div>
+
+        <!-- js -->
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <!-- <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script src="./assets/js/slick.min.js"></script> -->
+        <!-- <script src="./assets/js/slick_setting.js"></script> -->
+    </body>
+</html>

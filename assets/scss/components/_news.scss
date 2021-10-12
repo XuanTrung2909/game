@@ -1,0 +1,39 @@
+.news {
+    padding: 2rem 0;
+    .news__content {
+        .content__item {
+            padding: 1rem 0;
+
+            img {
+                width: 100%;
+                border-radius: 2rem;
+                height: 13rem;
+            }
+            .item__text {
+                padding-top: 2rem;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    transition: all 0.5s;
+                    &:hover {
+                        color: $color-primary;
+                    }
+                }
+                p {
+                    font-size: 1.3rem;
+                    span {
+                        color: blue;
+                        font-weight: bold;
+                    }
+                }
+                @media screen and (max-width: 767px) {
+                    a {
+                        h4 {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

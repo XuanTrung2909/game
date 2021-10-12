@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!-- BOOTSTRAP  -->
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+
+        <!-- SLICK -->
+
+        <!-- <link rel="stylesheet" href="./assets/css/slick.css" />
+        <link rel="stylesheet" href="./assets/css/slick-theme.css" /> -->
+
+        <!-- FONT AWESOME -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+
+        <title>GiftCode</title>
+    </head>
+    <body>
+        <div class="container wrapper">
+            <!-- HEADER  -->
+
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.png" alt="logo" />
+                    </a>
+                </div>
+                <!-- <div class="header__sign">
+                    <a href="./sign.html">
+                        <button>Đăng nhập</button>
+                    </a>
+                </div> -->
+            </div>
+
+            <!-- END HEADER  -->
+
+            <!-- GIFTCODE  -->
+            <div class="giftcode">
+                <div class="row">
+                    <div class="col-md-3 col-sm-5 col-12 menu">
+                        <ul>
+                            <li class="font-weight-bold">
+                                <i class="fas fa-bars"></i> Thông tin
+                            </li>
+                            <li>
+                                <i class="fas fa-user"></i> Tên tài khoản: admin
+                            </li>
+                            <li>
+                                 Đăng Xuất
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="font-weight-bold">
+                                <i class="fas fa-bars"></i> Menu
+                            </li>
+                            <a href="./giftcode.html" class="active">
+                                <li><i class="fas fa-gift"></i> giftcode</li>
+                            </a>
+                            <a href="./recharge.html">
+                                <li>
+                                    <i class="fas fa-dollar-sign"></i> Nạp tiền
+                                </li>
+                            </a>
+                            <a href="./webshop.html">
+                                <li>
+                                    <i class="fas fa-store-alt"></i> WebShop
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 col-sm-7 col-12 content">
+                        <h2>GiftCode</h2>
+                        <form>
+                            <div class="form-group">
+                                <label>Chọn game:</label>
+                                <select class="form-control h-50">
+                                    <option value="chiton">Chí Tôn</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Chọn Máy Chủ:</label>
+                                <select class="form-control h-50">
+                                    <option>Chí Tôn 01</option>
+                                    <option>Chí Tôn 02</option>
+                                    <option>Chí Tôn 03</option>
+                                    <option>Chí Tôn 04</option>
+                                    <option>Chí Tôn 05</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Giftcode</label>
+                                <input type="text" class="form-control" />
+                            </div>
+
+                            <button class="btn btn-success">Xác nhận</button>
+                        </form>
+                        <p>
+                            <i class="fas fa-info-circle"></i> Code : TANTHU,
+                            KILLBOSS, CHITON.
+                        </p>
+                        <p>
+                            <i class="fas fa-info-circle"></i> Lưu ý: Nhận code
+                            xong các bạn nên vào game nhận thư luôn, tránh
+                            trường hợp bị đầy hòm thư dẫn đến mất thư, thiếu vật
+                            phẩm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END GIFTCODE  -->
+
+            <!-- FOOTER  -->
+
+            <div class="footer">
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <a href="./index.html">
+                            <i class="fas fa-home"></i>
+                            <p>Trang chủ</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./giftcode.html" class="active">
+                            <i class="fas fa-gift"></i>
+                            <p>Giftcode</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./recharge.html">
+                            <i class="fas fa-dollar-sign"></i>
+                            <p>Nạp Thẻ</p>
+                        </a>
+                    </div>
+                    <div class="col-3 text-center">
+                        <a href="./webshop.html">
+                            <i class="fas fa-store-alt"></i>
+                            <p>WebShop</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END FOOTER -->
+        </div>
+
+        <!-- js -->
+
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+        <!-- <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script src="./assets/js/slick.min.js"></script> -->
+        <!-- <script src="./assets/js/slick_setting.js"></script> -->
+    </body>
+</html>
