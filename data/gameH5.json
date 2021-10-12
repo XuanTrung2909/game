@@ -1,0 +1,38 @@
+ [
+    {
+        "id": 1,
+        "name": "Tôn Ngộ Không",
+        "img":"./assets/images/game1.jpg",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 2,
+        "name": "Kiếm Ma",
+        "img":"./assets/images/game2.png",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 3,
+        "name": "Đông Tà Tây Độc",
+        "img":"./assets/images/game3.jpg",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 4,
+        "name": "Tôn Ngộ Không",
+        "img":"./assets/images/game4.png",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 5,
+        "name": "Kiếm Ma",
+        "img":"./assets/images/game1.jpg",
+        "content": "gioi thieu game"
+    },
+    {
+        "id": 6,
+        "name": "Đông Tà Tây Độc",
+        "img":"./assets/images/game2.png",
+        "content": "gioi thieu game"
+    }
+]

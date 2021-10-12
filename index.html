@@ -75,27 +75,8 @@
                 <h2 class="title">Tin tức - Sự Kiện</h2>
                 <div class="news__content">
                     <div class="content__item">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
-                                <img
-                                    src="./assets/images/game1.jpg"
-                                    alt="alt"
-                                />
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <div class="item__text">
-                                    <a href="#">
-                                        <h4>
-                                            Thông báo: Đông Tà Tây Độc
-                                            OPENSV1_Dương Quá
-                                        </h4>
-                                    </a>
-                                    <p>Đông Tà Tây Độc 3D</p>
-                                    <p>
-                                        <span>Sự Kiện</span>: 30-8-2021 22:08:59
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="row" id="news">
+                            
                         </div>
                     </div>
                     <div class="content__item">
@@ -180,8 +161,8 @@
             <div class="game-h5">
                 <h2 class="title">Game H5</h2>
                 <div class="content">
-                    <div class="row game-h5__slide">
-                        <div class="content__item">
+                    <div class="row game__list" id="gameH5">
+                        <!-- <div class="content__item">
                             <a href="./game-detail.html">
                                 <img
                                     src="./assets/images/game1.jpg"
@@ -234,7 +215,7 @@
                                 />
                                 <h3>Tôn Ngộ Không H5</h3>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -246,8 +227,8 @@
             <div class="game-h5">
                 <h2 class="title">Game Mobile</h2>
                 <div class="content">
-                    <div class="row game-mobile__slide">
-                        <div class="content__item">
+                    <div class="row" id="gameMobile">
+                        <!-- <div class="content__item">
                             <a href="./game-detail.html">
                                 <img
                                     src="./assets/images/game1.jpg"
@@ -300,7 +281,7 @@
                                 />
                                 <h3>Tôn Ngộ Không H5</h3>
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -364,5 +345,7 @@
         ></script>
         <script src="./assets/js/slick.min.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+        <script src="./services/gameService.js" type="module"></script>
     </body>
 </html>

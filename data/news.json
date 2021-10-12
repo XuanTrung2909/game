@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "tieuDe": "Đông Tà Tây Độc OPENSV1 Dương Quá",
+        "img":"./assets/images/game1.jpg",
+        "loaiGame": "Đông Tà Tây Độc 3D",
+        "thoiGian": "30-08-2021 22:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": true
+    },
+    {
+        "id": 2,
+        "tieuDe": "Tiểu Tam Quốc H5",
+        "img":"./assets/images/game2.png",
+        "loaiGame": "Tiểu Tam Quốc H5",
+        "thoiGian": "27-08-2021 00:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": true
+    },
+    {
+        "id": 3,
+        "tieuDe": "Kiếm Ma H5 - Sắp ra mắt tháng 9",
+        "img":"./assets/images/game3.jpg",
+        "loaiGame": "Kiếm ma H5",
+        "thoiGian": "27-08-2021 22:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": true
+    },
+    {
+        "id": 4,
+        "tieuDe": "Đông Tà Tây Độc OPENSV1 Dương Quá",
+        "img":"./assets/images/game1.jpg",
+        "loaiGame": "Đông Tà Tây Độc 3D",
+        "thoiGian": "30-08-2021 22:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": true
+    },
+    {
+        "id": 5,
+        "tieuDe": "Tiểu Tam Quốc H5",
+        "img":"./assets/images/game2.png",
+        "loaiGame": "Tiểu Tam Quốc H5",
+        "thoiGian": "27-08-2021 00:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": false
+    },
+    {
+        "id": 6,
+        "tieuDe": "Kiếm Ma H5 - Sắp ra mắt tháng 9",
+        "img":"./assets/images/game3.jpg",
+        "loaiGame": "Kiếm ma H5",
+        "thoiGian": "27-08-2021 22:08:59",
+        "noiDung": "Các sự Kiện của game",
+        "trangThai": false
+    }
+]
