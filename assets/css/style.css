@@ -158,6 +158,22 @@ button {
   }
 }
 
+.news .hide-button {
+  display: none !important;
+}
+
+.news button {
+  background-color: #f97133;
+  font-size: 1.6rem;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .news button {
+    font-size: 1.3rem;
+  }
+}
+
 .game-h5 .content {
   margin: 2rem 0;
 }
