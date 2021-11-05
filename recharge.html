@@ -1,323 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-        <!-- BOOTSTRAP  -->
+    <!-- BOOTSTRAP  -->
 
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous"
-        />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-        <!-- SLICK -->
+    <!-- SLICK -->
 
-        <!-- <link rel="stylesheet" href="./assets/css/slick.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/slick.css" />
         <link rel="stylesheet" href="./assets/css/slick-theme.css" /> -->
 
-        <!-- FONT AWESOME -->
+    <!-- FONT AWESOME -->
 
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-        <title>Nạp Game</title>
-    </head>
-    <body>
-        <div class="container wrapper">
-            <!-- HEADER  -->
+    <title>Nạp Game</title>
+  </head>
+  <body>
+    <div class="container wrapper">
+      <!-- HEADER  -->
 
-            <div class="header">
-                <div class="header__logo">
-                    <a href="index.html">
-                        <img src="./assets/images/logo.png" alt="logo" />
-                    </a>
-                </div>
-                <!-- <div class="header__sign">
+      <div class="header">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </a>
+        </div>
+        <!-- <div class="header__sign">
                     <a href="./sign.html">
                         <button>Đăng nhập</button>
                     </a>
                 </div> -->
+      </div>
+
+      <!-- END HEADER  -->
+
+      <!-- NẠP GAME  -->
+      <div class="giftcode">
+        <div class="row flex">
+          <div class="col-md-3 col-sm-5 col-12 menu">
+            <ul>
+              <li class="font-weight-bold">
+                <i class="fas fa-bars"></i> Thông tin
+              </li>
+              <li><i class="fas fa-user"></i> Tên tài khoản: admin</li>
+              <li>Đăng Xuất</li>
+            </ul>
+            <ul>
+              <li class="font-weight-bold"><i class="fas fa-bars"></i> Menu</li>
+              <a href="./giftcode.html">
+                <li><i class="fas fa-gift"></i> giftcode</li>
+              </a>
+              <a href="./recharge.html" class="active">
+                <li><i class="fas fa-dollar-sign"></i> Nạp tiền</li>
+              </a>
+              <a href="./webshop.html">
+                <li><i class="fas fa-store-alt"></i> WebShop</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-md-9 col-sm-7 col-12 content">
+            <h2>Nạp Game</h2>
+            <div class="payments">
+              <ul>
+                <li class="tab active">Thẻ Cào</li>
+                <li class="tab">Ngân Hàng</li>
+                <li class="tab">Ví Momo</li>
+              </ul>
             </div>
+            <form class="tab-panel active-panel">
+              <div class="form-group">
+                <label>Loại Thẻ:</label>
+                <select class="form-control h-50">
+                  <option value="viettel">Viettel</option>
+                  <option value="vinaphone">Vinaphone</option>
+                  <option value="mobilephone">Mobilephone</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Mệnh giá:</label>
+                <select class="form-control h-50">
+                  <option>10.000 VNĐ</option>
+                  <option>20.000 VNĐ</option>
+                  <option>50.000 VNĐ</option>
+                  <option>100.000 VNĐ</option>
+                  <option>200.000 VNĐ</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Nhập Serial: </label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Nhập mã thẻ: </label>
+                <input type="text" class="form-control" />
+              </div>
 
-            <!-- END HEADER  -->
+              <button class="btn btn-success">Xác nhận</button>
 
-            <!-- NẠP GAME  -->
-            <div class="giftcode">
-                <div class="row">
-                    <div class="col-md-3 col-sm-5 col-12 menu">
-                        <ul>
-                            <li class="font-weight-bold">
-                                <i class="fas fa-bars"></i> Thông tin
-                            </li>
-                            <li>
-                                <i class="fas fa-user"></i> Tên tài khoản: admin
-                            </li>
-                            <li>
-                                Đăng Xuất
-                           </li>
-                        </ul>
-                        <ul>
-                            <li class="font-weight-bold">
-                                <i class="fas fa-bars"></i> Menu
-                            </li>
-                            <a href="./giftcode.html">
-                                <li><i class="fas fa-gift"></i> giftcode</li>
-                            </a>
-                            <a href="./recharge.html" class="active">
-                                <li>
-                                    <i class="fas fa-dollar-sign"></i> Nạp tiền
-                                </li>
-                            </a>
-                            <a href="./webshop.html">
-                                <li>
-                                    <i class="fas fa-store-alt"></i> WebShop
-                                </li>
-                            </a>
-                        </ul>
-                    </div>
-                    <div class="col-md-9 col-sm-7 col-12 content">
-                        <h2>Nạp Game</h2>
-                        <div class="payments">
-                            <ul>
-                                <li class="tab active">Thẻ Cào</li>
-                                <li class="tab">Ngân Hàng</li>
-                                <li class="tab">Ví Momo</li>
-                            </ul>
-                        </div>
-                        <form class="tab-panel active-panel">
-                            <div class="form-group">
-                                <label>Loại Thẻ:</label>
-                                <select class="form-control h-50">
-                                    <option value="viettel">Viettel</option>
-                                    <option value="vinaphone">Vinaphone</option>
-                                    <option value="mobilephone">
-                                        Mobilephone
-                                    </option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Mệnh giá:</label>
-                                <select class="form-control h-50">
-                                    <option>10.000 VNĐ</option>
-                                    <option>20.000 VNĐ</option>
-                                    <option>50.000 VNĐ</option>
-                                    <option>100.000 VNĐ</option>
-                                    <option>200.000 VNĐ</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Nhập Serial: </label>
-                                <input type="text" class="form-control" />
-                            </div>
-                            <div class="form-group">
-                                <label>Nhập mã thẻ: </label>
-                                <input type="text" class="form-control" />
-                            </div>
-
-                            <button class="btn btn-success">Xác nhận</button>
-
-                            <p>
-                                <i class="fas fa-info-circle"></i> Chọn đúng
-                                loại thẻ và mệnh giá, sai sẽ không nhận được
-                                coin!
-                            </p>
-                        </form>
-                        <div class="tab-panel">
-                            <h3>Thông tin Chuyển khoản ngân hàng</h3>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Số Tài Khoản</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="123456789"
-                                        id="txtAccountNumber"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtAccountNumber')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Tên Tài Khoản</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="Nguyễn Văn A"
-                                        id="txtAccount"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtAccount')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Nội dung chuyển khoản:</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="Chuyển khoản"
-                                        id="txtContent"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtContent')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Ngân Hàng:</p>
-                                </div>
-                                <div class="col-8">
-                                    <p>BIDV Chi Nhánh Q1, HCM</p>
-                                </div>
-                            </div>
-                            <p>
-                                <i class="fas fa-info-circle"></i> Nội dung
-                                chuyển khoản phải ghi đúng như trên, nếu sai sẽ
-                                không nhận được Coin
-                            </p>
-                        </div>
-                        <div class="tab-panel">
-                            <h3>Thông tin Chuyển khoản qua ví MOMO</h3>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Số Momo</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="123456789"
-                                        id="txtAccountNumberMomo"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtAccountNumberMomo')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Tên Tài Khoản</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="Nguyễn Văn A"
-                                        id="txtAccountMomo"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtAccountMomo')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="row my-5">
-                                <div class="col-4">
-                                    <p>Nội dung chuyển khoản:</p>
-                                </div>
-                                <div class="col-8">
-                                    <input
-                                        type="text"
-                                        value="Chuyển khoản"
-                                        id="txtContentMomo"
-                                    />
-                                    <button
-                                        onclick="copyValue('txtContentMomo')"
-                                        class="btn btn-light"
-                                    >
-                                        Copy
-                                    </button>
-                                </div>
-                            </div>
-
-                            <p>
-                                <i class="fas fa-info-circle"></i> Nội dung
-                                chuyển khoản phải ghi đúng như trên, nếu sai sẽ
-                                không nhận được Coin
-                            </p>
-                        </div>
-                    </div>
+              <p>
+                <i class="fas fa-info-circle"></i> Chọn đúng loại thẻ và mệnh
+                giá, sai sẽ không nhận được coin!
+              </p>
+            </form>
+            <div class="tab-panel">
+              <h3>Thông tin Chuyển khoản ngân hàng</h3>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Số Tài Khoản</p>
                 </div>
-            </div>
-            <!-- END NẠP GAME  -->
-
-            <!-- FOOTER  -->
-
-            <div class="footer">
-                <div class="row">
-                    <div class="col-3 text-center">
-                        <a href="./index.html">
-                            <i class="fas fa-home"></i>
-                            <p>Trang chủ</p>
-                        </a>
-                    </div>
-                    <div class="col-3 text-center">
-                        <a href="./giftcode.html">
-                            <i class="fas fa-gift"></i>
-                            <p>Giftcode</p>
-                        </a>
-                    </div>
-                    <div class="col-3 text-center">
-                        <a href="./recharge.html" class="active">
-                            <i class="fas fa-dollar-sign"></i>
-                            <p>Nạp Thẻ</p>
-                        </a>
-                    </div>
-                    <div class="col-3 text-center">
-                        <a href="./webshop.html">
-                            <i class="fas fa-store-alt"></i>
-                            <p>WebShop</p>
-                        </a>
-                    </div>
+                <div class="col-8">
+                  <input type="text" value="123456789" id="txtAccountNumber" />
+                  <button
+                    onclick="copyValue('txtAccountNumber')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
                 </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Tên Tài Khoản</p>
+                </div>
+                <div class="col-8">
+                  <input type="text" value="Nguyễn Văn A" id="txtAccount" />
+                  <button
+                    onclick="copyValue('txtAccount')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Nội dung chuyển khoản:</p>
+                </div>
+                <div class="col-8">
+                  <input type="text" value="Chuyển khoản" id="txtContent" />
+                  <button
+                    onclick="copyValue('txtContent')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Ngân Hàng:</p>
+                </div>
+                <div class="col-8">
+                  <p>BIDV Chi Nhánh Q1, HCM</p>
+                </div>
+              </div>
+              <p>
+                <i class="fas fa-info-circle"></i> Nội dung chuyển khoản phải
+                ghi đúng như trên, nếu sai sẽ không nhận được Coin
+              </p>
             </div>
+            <div class="tab-panel">
+              <h3>Thông tin Chuyển khoản qua ví MOMO</h3>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Số Momo</p>
+                </div>
+                <div class="col-8">
+                  <input
+                    type="text"
+                    value="123456789"
+                    id="txtAccountNumberMomo"
+                  />
+                  <button
+                    onclick="copyValue('txtAccountNumberMomo')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Tên Tài Khoản</p>
+                </div>
+                <div class="col-8">
+                  <input type="text" value="Nguyễn Văn A" id="txtAccountMomo" />
+                  <button
+                    onclick="copyValue('txtAccountMomo')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
+              <div class="row my-5">
+                <div class="col-4">
+                  <p>Nội dung chuyển khoản:</p>
+                </div>
+                <div class="col-8">
+                  <input type="text" value="Chuyển khoản" id="txtContentMomo" />
+                  <button
+                    onclick="copyValue('txtContentMomo')"
+                    class="btn btn-light"
+                  >
+                    Copy
+                  </button>
+                </div>
+              </div>
 
-            <!-- END FOOTER -->
+              <p>
+                <i class="fas fa-info-circle"></i> Nội dung chuyển khoản phải
+                ghi đúng như trên, nếu sai sẽ không nhận được Coin
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <!-- END NẠP GAME  -->
 
-        <!-- js -->
+      <!-- FOOTER  -->
 
-        <script
-            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"
-        ></script>
-        <script src="./assets/js/main.js"></script>
-    </body>
+      <div class="footer">
+        <div class="row">
+          <div class="col-3 text-center">
+            <a href="./index.html">
+              <i class="fas fa-home"></i>
+              <p>Trang chủ</p>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="./giftcode.html">
+              <i class="fas fa-gift"></i>
+              <p>Giftcode</p>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="./recharge.html" class="active">
+              <i class="fas fa-dollar-sign"></i>
+              <p>Nạp Thẻ</p>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="./webshop.html">
+              <i class="fas fa-store-alt"></i>
+              <p>WebShop</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- END FOOTER -->
+    </div>
+
+    <!-- js -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
